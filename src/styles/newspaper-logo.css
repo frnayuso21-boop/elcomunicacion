@@ -1,0 +1,32 @@
+/* Estilos para el logo exacto del periódico */
+
+@font-face {
+  font-family: 'Newspaper-Headline';
+  src: local('Times New Roman'), local('Times'), local('serif');
+  font-weight: 900;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Newspaper-Subhead';
+  src: local('Times New Roman'), local('Times'), local('serif');
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+.newspaper-logo {
+  font-family: 'Newspaper-Headline', serif;
+  font-weight: 900;
+  font-stretch: condensed;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.newspaper-subhead {
+  font-family: 'Newspaper-Subhead', serif;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
